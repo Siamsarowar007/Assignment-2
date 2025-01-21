@@ -82,6 +82,7 @@
   list-style: none;
   margin-right: 30px;
 }
+
 .nav-div-three{
   background-color:;
 }
@@ -98,7 +99,7 @@
 
 /* banner */
 .banner{
-
+  justify-content: space-between;
 }
 .banner-details{
   padding: 0px  ;
@@ -115,6 +116,9 @@
   font-weight: bold;
   font-size: 3.5rem;
 }
+.banner-description{
+  margin: 0px;
+}
 
 .btn-primary{
   font-weight: bold;
@@ -130,3 +134,45 @@
   width: 100%;
 
 }
+.hide{
+  display: none;
+}
+
+
+
+/* footer  */
+
+.footer-div-container{
+  justify-content: space-between;
+  padding: 80px 180px 110px 200px;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(190, 188, 188);
+
+
+}
+
+.kids-edu-div{
+
+}
+.footer-about{
+  
+}
+
+.footer-li{
+  list-style: none;
+
+}
+
+
+/* responsive media query */
+
+@media screen and (max-width:576px) {
+  .navbar .nav-link .banner{
+    flex-direction: colum  n;
+  }
+}
+
+
+
