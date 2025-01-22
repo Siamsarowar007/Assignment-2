@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 :root {
@@ -201,9 +202,7 @@ nav {
   gap: 1rem;
   align-content: stretch;
 }
-.stories-mobile {
-  display: none;
-}
+
 .story1,
 .story2,
 .story3,
@@ -236,6 +235,20 @@ nav {
 
   position: absolute;
     left: 5%; 
+    top: -35%; 
+  
+}
+.position-btn-left{
+
+  position: absolute;
+    left: 5%; 
+    top: -25%; 
+  
+}
+.position-btn-4{
+
+  position: absolute;
+    left: 5%; 
     top: -12%; 
   
 }
@@ -251,9 +264,7 @@ nav {
   border: none;
   border-radius: 10px;
 }
-.story2{
-  position: relative;
-}
+
 .storyText p {
   font-size: 1rem;
 }
@@ -377,9 +388,16 @@ nav {
     flex-direction: column;
   }
   .stories {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  .storyLeft {
     display: none;
   }
-  .stories-mobile {
+  .story-right {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -406,7 +424,24 @@ nav {
 
     position: absolute;
       left: 5%; 
-      top: -12%; 
+      top: -35%; 
     
+  }
+  .position-btn-2{
+
+    position: absolute;
+      left: 5%; 
+      top: -65%; 
+    
+  }
+  .position-btn-5{
+
+    position: absolute;
+      left: 5%; 
+      top: -65%; 
+    
+  }
+  .arrow{
+    display: none;
   }
 }
