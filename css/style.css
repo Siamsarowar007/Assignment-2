@@ -360,10 +360,11 @@ nav {
   nav {
     border: 1px solid var(--color-primary);
   }
-  .brand {
+  
+  .menu {
     display: none;
   }
-  .menu {
+  .brand-nav{
     display: none;
   }
   .navBtn {
