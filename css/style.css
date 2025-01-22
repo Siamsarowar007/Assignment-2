@@ -235,21 +235,28 @@ nav {
 
   position: absolute;
     left: 5%; 
-    top: -35%; 
+    top: -25%; 
   
 }
 .position-btn-left{
 
   position: absolute;
     left: 5%; 
-    top: -25%; 
+    top: -15%; 
   
 }
 .position-btn-4{
 
   position: absolute;
     left: 5%; 
-    top: -12%; 
+    top: -15%; 
+  
+}
+.position-btn-5{
+
+  position: absolute;
+    left: 5%; 
+    top: -15%; 
   
 }
 .btn-green{
